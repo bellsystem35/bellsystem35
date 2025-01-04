@@ -1,0 +1,19 @@
+- 👋 Hi, I’m @bellsystem35
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+<!---
+bellsystem35/bellsystem35 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->https://wordpress.com/post/bellsystem35.wordpress.com/138
+https://wordpress.com/post/bellsystem35.wordpress.com/99
+https://wordpress.com/post/bellsystem35.wordpress.com/95
+https://wordpress.com/post/bellsystem35.wordpress.com/92
+https://wordpress.com/post/bellsystem35.wordpress.com/5
+https://wordpress.com/post/bellsystem35.wordpress.com/6
+https://wordpress.com/post/bellsystem35.wordpress.com/7
+https://wordpress.com/post/bellsystem35.wordpress.com/9
+https://wordpress.com/post/bellsystem35.wordpress.com/10

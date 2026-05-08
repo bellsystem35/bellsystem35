@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="شركة BELL SYSTEM لتسليك المجاري والعزل ومكافحة الحشرات في الشارقة - خدمة 24/7 احترافية">
+  <meta name="keywords" content="تسليك مجاري، شفط بيارات، عزل، مكافحة حشرات، الشارقة، خدمة طوارئ">
+  <meta name="author" content="BELL SYSTEM">
+  <meta name="theme-color" content="#22c55e">
+  <title>BELL SYSTEM | تسليك مجاري وعزل ومكافحة حشرات في الشارقة</title>
+  <link rel="canonical" href="https://bellsystem35.com">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%2322c55e' width='100' height='100' rx='20'/%3E%3Ctext x='50' y='65' font-size='60' font-weight='900' fill='white' text-anchor='middle'%3EBS%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #020617;
+      --bg2: #081120;
+      --card: #0f172a;
+      --card2: #111827;
+      --line: rgba(255,255,255,.08);
+      --text: #ffffff;
+      --soft: #cbd5e1;
+      --muted: #94a3b8;
+      --green: #22c55e;
+      --green2: #16a34a;
+      --cyan: #06b6d4;
+      --blue: #3b82f6;
+      --gold: #f59e0b;
+      --red: #ef4444;
+      --shadow: 0 30px 80px rgba(0,0,0,.45);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+      background: radial-gradient(circle at top right, #0f766e25, transparent 30%),
+                  radial-gradient(circle at left, #2563eb20, transparent 30%),
+                  linear-gradient(180deg, #020617, #081120, #020617);
+      color: var(--text);
+      line-height: 1.9;
+    }
+
+    .bell-wrap {
+      max-width: 1450px;
+      margin: auto;
+      padding: 0 22px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* TOP BAR */
+    .bell-topbar {
+      background: linear-gradient(90deg, #020617, #064e3b, #0f766e, #020617);
+      padding: 14px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 800;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      animation: slideDown 0.6s ease-out;
+    }
+
+    .bell-topbar a {
+      color: #fff;
+      margin: 0 10px;
+      transition: 0.3s;
+    }
+
+    .bell-topbar a:hover {
+      color: #22c55e;
+      text-shadow: 0 0 10px rgba(34,197,94,.5);
+    }
+
+    /* HEADER */
+    .bell-header {
+      position: sticky;
+      top: 0;
+      z-index: 9999;
+      background: rgba(2,6,23,.95);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      box-shadow: 0 4px 20px rgba(0,0,0,.3);
+    }
+
+    .bell-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 0;
+      gap: 20px;
+    }
+
+    .bell-logo {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .bell-logo:hover {
+      transform: scale(1.05);
+    }
+
+    .bell-logo-icon {
+      width: 62px;
+      height: 62px;
+      border-radius: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: 900;
+      background: linear-gradient(135deg, #22c55e, #06b6d4);
+      box-shadow: 0 18px 50px rgba(34,197,94,.35);
+      animation: pulse 2s infinite;
+    }
+
+    .bell-logo-text {
+      font-size: 30px;
+      font-weight: 900;
+      background: linear-gradient(90deg, #22c55e, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .bell-links {
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+    }
+
+    .bell-links a {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      transition: .3s;
+      position: relative;
+    }
+
+    .bell-links a:after {
+      content: "";
+      position: absolute;
+      bottom: -8px;
+      right: 0;
+      width: 0;
+      height: 2px;
+      background: #22c55e;
+      transition: .3s;
+    }
+
+    .bell-links a:hover:after {
+      width: 100%;
+    }
+
+    .bell-links a:hover {
+      color: #22c55e;
+    }
+
+    /* HERO */
+    .bell-hero {
+      position: relative;
+      padding: 150px 0 120px;
+      overflow: hidden;
+    }
+
+    .bell-hero:before {
+      content: "";
+      position: absolute;
+      top: -250px;
+      right: -250px;
+      width: 650px;
+      height: 650px;
+      background: rgba(34,197,94,.10);
+      filter: blur(120px);
+      border-radius: 50%;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .bell-hero:after {
+      content: "";
+      position: absolute;
+      left: -250px;
+      bottom: -250px;
+      width: 650px;
+      height: 650px;
+      background: rgba(59,130,246,.12);
+      filter: blur(120px);
+      border-radius: 50%;
+      animation: float 8s ease-in-out infinite reverse;
+    }
+
+    .bell-hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 50px;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .bell-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 24px;
+      background: rgba(34,197,94,.10);
+      border: 1px solid rgba(34,197,94,.25);
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 900;
+      color: #bbf7d0;
+      margin-bottom: 28px;
+      backdrop-filter: blur(12px);
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    .bell-hero h1 {
+      font-size: 76px;
+      line-height: 1.12;
+      margin: 0 0 28px;
+      font-weight: 900;
+      letter-spacing: -2px;
+      animation: fadeInUp 1s ease-out 0.2s both;
+    }
+
+    .bell-hero h1 span {
+      background: linear-gradient(90deg, #22c55e, #06b6d4, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .bell-hero p {
+      font-size: 21px;
+      color: var(--soft);
+      max-width: 760px;
+      margin-bottom: 36px;
+      animation: fadeInUp 1s ease-out 0.4s both;
+    }
+
+    .bell-btns {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+      animation: fadeInUp 1s ease-out 0.6s both;
+    }
+
+    .bell-btn {
+      padding: 20px 36px;
+      border-radius: 20px;
+      font-size: 17px;
+      font-weight: 900;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: .35s;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      border: none;
+    }
+
+    .bell-btn:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: rgba(255,255,255,.12);
+      transition: .5s;
+    }
+
+    .bell-btn:hover:before {
+      left: 100%;
+    }
+
+    .bell-btn:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(0,0,0,.5);
+    }
+
+    .bell-call {
+      background: linear-gradient(135deg, #22c55e, #16a34a);
+      color: #fff;
+      box-shadow: 0 20px 50px rgba(34,197,94,.35);
+    }
+
+    .bell-wa {
+      background: #25d366;
+      color: #fff;
+      box-shadow: 0 20px 50px rgba(37,211,102,.35);
+    }
+
+    .bell-services-btn {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.08);
+      color: #fff;
+    }
+
+    /* TRUST */
+    .bell-trust {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 18px;
+      animation: fadeInUp 1s ease-out 0.8s both;
+    }
+
+    .bell-trust-box {
+      background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.06);
+      padding: 26px;
+      border-radius: 26px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+      transition: 0.4s;
+    }
+
+    .bell-trust-box:hover {
+      transform: translateY(-8px);
+      border-color: #22c55e;
+      background: rgba(34,197,94,.05);
+    }
+
+    .bell-trust-box strong {
+      display: block;
+      font-size: 38px;
+      font-weight: 900;
+      margin-bottom: 8px;
+      color: #22c55e;
+    }
+
+    .bell-trust-box span {
+      font-size: 14px;
+      color: var(--soft);
+    }
+
+    /* HERO CARDS */
+    .bell-cards {
+      display: grid;
+      gap: 22px;
+    }
+
+    .bell-card {
+      background: linear-gradient(180deg, rgba(15,23,42,.98), rgba(2,6,23,.98));
+      padding: 32px;
+      border-radius: 34px;
+      border: 1px solid rgba(255,255,255,.06);
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: .4s;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .bell-card:hover {
+      transform: translateY(-10px);
+      border-color: #22c55e;
+      box-shadow: 0 30px 80px rgba(34,197,94,.2);
+    }
+
+    .bell-card:before {
+      content: "";
+      position: absolute;
+      top: -70px;
+      left: -70px;
+      width: 220px;
+      height: 220px;
+      background: rgba(34,197,94,.10);
+      border-radius: 50%;
+    }
+
+    .bell-card h3 {
+      font-size: 30px;
+      margin-bottom: 16px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .bell-card p {
+      font-size: 16px;
+      color: var(--soft);
+      margin-bottom: 18px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .bell-mini {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .bell-mini span {
+      padding: 10px 14px;
+      background: rgba(255,255,255,.05);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      transition: 0.3s;
+    }
+
+    .bell-mini span:hover {
+      background: rgba(34,197,94,.2);
+      color: #22c55e;
+    }
+
+    /* SECTION */
+    .bell-section {
+      padding: 120px 0;
+      position: relative;
+    }
+
+    .bell-title {
+      text-align: center;
+      margin-bottom: 70px;
+    }
+
+    .bell-title h2 {
+      font-size: 58px;
+      margin-bottom: 18px;
+      font-weight: 900;
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    .bell-title p {
+      font-size: 20px;
+      color: var(--soft);
+      max-width: 900px;
+      margin: auto;
+      animation: fadeInUp 0.8s ease-out 0.2s both;
+    }
+
+    /* PROBLEMS */
+    .bell-problems {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .bell-problem {
+      background: linear-gradient(180deg, #0f172a, #111827);
+      padding: 38px 30px;
+      border-radius: 30px;
+      border: 1px solid rgba(255,255,255,.06);
+      transition: .4s;
+      box-shadow: var(--shadow);
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    .bell-problem:hover {
+      transform: translateY(-12px);
+      border-color: #22c55e;
+      box-shadow: 0 30px 80px rgba(34,197,94,.2);
+    }
+
+    .bell-problem h3 {
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    .bell-problem p {
+      color: var(--soft);
+    }
+
+    /* SERVICES */
+    .bell-services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 28px;
+    }
+
+    .bell-service {
+      background: linear-gradient(180deg, #0f172a, #020617);
+      padding: 42px;
+      border-radius: 34px;
+      border: 1px solid rgba(255,255,255,.06);
+      transition: .4s;
+      box-shadow: var(--shadow);
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    .bell-service:hover {
+      transform: translateY(-12px);
+      border-color: #22c55e;
+      box-shadow: 0 30px 80px rgba(34,197,94,.2);
+    }
+
+    .bell-service h3 {
+      font-size: 38px;
+      margin-bottom: 20px;
+    }
+
+    .bell-service ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .bell-service ul li {
+      padding: 14px 0;
+      border-bottom: 1px dashed rgba(255,255,255,.08);
+      color: #dbeafe;
+      transition: 0.3s;
+      padding-right: 10px;
+    }
+
+    .bell-service ul li:before {
+      content: "✓ ";
+      color: #22c55e;
+      font-weight: 900;
+      margin-right: 8px;
+    }
+
+    .bell-service ul li:hover {
+      padding-right: 20px;
+      color: #22c55e;
+    }
+
+    /* AREAS */
+    .bell-areas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 18px;
+    }
+
+    .bell-area {
+      padding: 24px;
+      border-radius: 22px;
+      text-align: center;
+      font-weight: 800;
+      background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.06);
+      transition: .35s;
+      cursor: pointer;
+    }
+
+    .bell-area:hover {
+      background: #0f766e;
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(15,118,110,.3);
+    }
+
+    /* REVIEWS */
+    .bell-reviews {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+    }
+
+    .bell-review {
+      background: linear-gradient(180deg, #111827, #020617);
+      padding: 36px;
+      border-radius: 32px;
+      border: 1px solid rgba(255,255,255,.06);
+      box-shadow: var(--shadow);
+      animation: fadeInUp 0.8s ease-out;
+      transition: 0.3s;
+    }
+
+    .bell-review:hover {
+      border-color: #22c55e;
+      transform: translateY(-8px);
+    }
+
+    .bell-review strong {
+      display: block;
+      margin-top: 18px;
+      font-size: 18px;
+    }
+
+    /* CTA */
+    .bell-cta {
+      padding: 90px 40px;
+      border-radius: 44px;
+      background: radial-gradient(circle at top, #22c55e20, transparent 35%),
+                  linear-gradient(135deg, #0f172a, #064e3b);
+      border: 1px solid rgba(255,255,255,.08);
+      text-align: center;
+      box-shadow: var(--shadow);
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    .bell-cta h2 {
+      font-size: 64px;
+      margin-bottom: 20px;
+    }
+
+    .bell-cta p {
+      font-size: 22px;
+      color: #dbeafe;
+      margin-bottom: 34px;
+    }
+
+    /* MAP */
+    .bell-map iframe {
+      width: 100%;
+      height: 420px;
+      border: 0;
+      border-radius: 34px;
+      box-shadow: var(--shadow);
+      transition: 0.3s;
+    }
+
+    .bell-map iframe:hover {
+      box-shadow: 0 40px 100px rgba(34,197,94,.2);
+    }
+
+    /* FOOTER */
+    .bell-footer {
+      padding: 100px 0 40px;
+      border-top: 1px solid rgba(255,255,255,.06);
+      background: radial-gradient(circle at top right, #0f766e15, transparent 40%);
+    }
+
+    .bell-footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+
+    .bell-footer h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .bell-footer a {
+      display: block;
+      margin-bottom: 12px;
+      color: #cbd5e1;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+
+    .bell-footer a:hover {
+      color: #22c55e;
+      padding-right: 10px;
+    }
+
+    .bell-copy {
+      padding-top: 30px;
+      border-top: 1px solid rgba(255,255,255,.06);
+      text-align: center;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+
+    /* FLOAT */
+    .bell-float {
+      position: fixed;
+      left: 18px;
+      bottom: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      z-index: 9999;
+      animation: slideUp 0.6s ease-out;
+    }
+
+    .bell-float a {
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      font-weight: 900;
+      color: #fff;
+      box-shadow: 0 18px 40px rgba(0,0,0,.45);
+      transition: 0.3s;
+      position: relative;
+    }
+
+    .bell-float a:hover {
+      transform: scale(1.15);
+      box-shadow: 0 25px 60px rgba(0,0,0,.6);
+    }
+
+    .bell-float-call {
+      background: #22c55e;
+    }
+
+    .bell-float-wa {
+      background: #25d366;
+    }
+
+    /* ANIMATIONS */
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-30px);
+      }
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        box-shadow: 0 18px 50px rgba(34,197,94,.35);
+      }
+      50% {
+        box-shadow: 0 18px 50px rgba(34,197,94,.7);
+      }
+    }
+
+    /* MOBILE */
+    @media (max-width: 1100px) {
+      .bell-hero-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .bell-hero h1 {
+        font-size: 58px;
+      }
+
+      .bell-trust {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .bell-links {
+        display: none;
+      }
+
+      .bell-hero {
+        padding: 120px 0 90px;
+      }
+
+      .bell-hero h1 {
+        font-size: 42px;
+        line-height: 1.25;
+      }
+
+      .bell-hero p {
+        font-size: 18px;
+      }
+
+      .bell-title h2 {
+        font-size: 40px;
+      }
+
+      .bell-cta h2 {
+        font-size: 40px;
+      }
+
+      .bell-trust {
+        grid-template-columns: 1fr;
+      }
+
+      .bell-btn {
+        width: 100%;
+      }
+
+      .bell-float {
+        left: 10px;
+        bottom: 10px;
+        gap: 10px;
+      }
+
+      .bell-float a {
+        width: 55px;
+        height: 55px;
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="bell-topbar">
+  📞 <a href="tel:+971528913062">0528913062</a>
+  |
+  💬 <a href="https://wa.me/971528913062">واتساب مباشر</a>
+  |
+  🚨 خدمة طوارئ 24 ساعة في جميع مناطق الشارقة
+</div>
+
+<header class="bell-header">
+  <div class="bell-wrap">
+    <div class="bell-nav">
+      <div class="bell-logo">
+        <div class="bell-logo-icon">BS</div>
+        <div class="bell-logo-text">BELL SYSTEM</div>
+      </div>
+      <nav class="bell-links">
+        <a href="#home">الرئيسية</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#areas">المناطق</a>
+        <a href="#reviews">آراء العملاء</a>
+        <a href="tel:+971528913062">اتصل بنا</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="bell-hero" id="home">
+  <div class="bell-wrap">
+    <div class="bell-hero-grid">
+      <div>
+        <div class="bell-badge">⭐ شركة خدمات احترافية في الشارقة</div>
+        <h1>شركة <span>تسليك مجاري</span> في الشارقة بمستوى احترافي متكامل</h1>
+        <p>BELL SYSTEM تقدم خدمات تسليك المجاري، شفط البيارات، تنظيف البالوعات، العزل المائي والحراري، ومكافحة الحشرات مع استجابة سريعة وخدمة طوارئ 24 ساعة في جميع مناطق الشارقة.</p>
+        <div class="bell-btns">
+          <a href="tel:+971528913062" class="bell-btn bell-call">📞 اتصال مباشر</a>
+          <a href="https://wa.me/971528913062" class="bell-btn bell-wa">💬 واتساب مباشر</a>
+          <a href="#services" class="bell-btn bell-services-btn">🚀 استعرض الخدمات</a>
+        </div>
+        <div class="bell-trust">
+          <div class="bell-trust-box"><strong>24/7</strong><span>خدمة طوارئ</span></div>
+          <div class="bell-trust-box"><strong>+5000</strong><span>خدمة ناجحة</span></div>
+          <div class="bell-trust-box"><strong>100%</strong><span>تغطية الشارقة</span></div>
+          <div class="bell-trust-box"><strong>⭐ 5.0</strong><span>رضا العملاء</span></div>
+        </div>
+      </div>
+      <div class="bell-cards">
+        <div class="bell-card">
+          <h3>🚰 خدمات الصرف الصحي</h3>
+          <p>تسليك مجاري، شفط بيارات، تنظيف بالوعات، صيانة صرف صحي، ومعالجة روائح المجاري للمنازل والفلل والمباني.</p>
+          <div class="bell-mini">
+            <span>تسليك مجاري</span>
+            <span>شفط بيارات</span>
+            <span>تنظيف بالوعات</span>
+            <span>صيانة صرف</span>
+          </div>
+        </div>
+        <div class="bell-card">
+          <h3>🛡️ خدمات العزل</h3>
+          <p>عزل فوم، عزل أسطح، عزل خزانات، وعزل هناجر باستخدام مواد احترافية عالية الجودة.</p>
+          <div class="bell-mini">
+            <span>عزل مائي</span>
+            <span>عزل حراري</span>
+            <span>عزل فوم</span>
+            <span>عزل خزانات</span>
+          </div>
+        </div>
+        <div class="bell-card">
+          <h3>🐜 مكافحة الحشرات</h3>
+          <p>مكافحة النمل الأبيض والصراصير والقوارض والحمام مع حلول آمنة للمنازل والشركات.</p>
+          <div class="bell-mini">
+            <span>النمل الأبيض</span>
+            <span>الصراصير</span>
+            <span>الفئران</span>
+            <span>الحمام</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bell-section">
+  <div class="bell-wrap">
+    <div class="bell-title">
+      <h2>ابدأ من المشكلة</h2>
+      <p>اختر المشكلة التي تواجهك للوصول إلى الحل المناسب بسرعة.</p>
+    </div>
+    <div class="bell-problems">
+      <div class="bell-problem">
+        <h3>🚽 انسداد مجاري</h3>
+        <p>حلول تسليك احترافية للمطابخ والحمامات وخطوط الصرف الصحي.</p>
+      </div>
+      <div class="bell-problem">
+        <h3>💧 تسربات وعزل</h3>
+        <p>عزل مائي وحراري للأسطح والخزانات والهناجر.</p>
+      </div>
+      <div class="bell-problem">
+        <h3>🦠 روائح كريهة</h3>
+        <p>معالجة روائح المجاري والبيارات والحمامات.</p>
+      </div>
+      <div class="bell-problem">
+        <h3>🐀 حشرات وقوارض</h3>
+        <p>مكافحة الصراصير والنمل الأبيض والفئران والحمام.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bell-section" id="services">
+  <div class="bell-wrap">
+    <div class="bell-title">
+      <h2>خدمات BELL SYSTEM</h2>
+      <p>حلول متكاملة للصرف الصحي والعزل ومكافحة الحشرات في الشارقة.</p>
+    </div>
+    <div class="bell-services">
+      <div class="bell-service">
+        <h3>🚰 الصرف الصحي</h3>
+        <ul>
+          <li>تسليك مجاري بالضغط</li>
+          <li>شفط بيارات</li>
+          <li>تنظيف بالوعات</li>
+          <li>صيانة صرف صحي</li>
+          <li>معالجة روائح</li>
+          <li>طوارئ 24 ساعة</li>
+        </ul>
+      </div>
+      <div class="bell-service">
+        <h3>🛡️ العزل</h3>
+        <ul>
+          <li>عزل فوم</li>
+          <li>عزل أسطح</li>
+          <li>عزل خزانات</li>
+          <li>عزل هناجر</li>
+          <li>عزل حراري</li>
+          <li>عزل مائي</li>
+        </ul>
+      </div>
+      <div class="bell-service">
+        <h3>🐜 مكافحة الحشرات</h3>
+        <ul>
+          <li>مكافحة النمل الأبيض</li>
+          <li>رش الصراصير</li>
+          <li>مكافحة القوارض</li>
+          <li>مكافحة الحمام</li>
+          <li>رش مبيدات</li>
+          <li>فحص ومعالجة الرمة</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bell-section" id="areas">
+  <div class="bell-wrap">
+    <div class="bell-title">
+      <h2>نغطي جميع مناطق الشارقة</h2>
+      <p>خدمة سريعة واستجابة مباشرة في جميع المناطق السكنية والتجارية.</p>
+    </div>
+    <div class="bell-areas">
+      <div class="bell-area">القاسمية</div>
+      <div class="bell-area">المجاز</div>
+      <div class="bell-area">مويلح</div>
+      <div class="bell-area">النهدة</div>
+      <div class="bell-area">التعاون</div>
+      <div class="bell-area">الخان</div>
+      <div class="bell-area">الرحمانية</div>
+      <div class="bell-area">القرائن</div>
+      <div class="bell-area">السيوح</div>
+      <div class="bell-area">حوشي</div>
+    </div>
+  </div>
+</section>
+
+<section class="bell-section" id="reviews">
+  <div class="bell-wrap">
+    <div class="bell-title">
+      <h2>آراء العملاء</h2>
+      <p>تقييمات حقيقية من عملائنا في الشارقة.</p>
+    </div>
+    <div class="bell-reviews">
+      <div class="bell-review">
+        ⭐⭐⭐⭐⭐
+        <p>أفضل شركة تسليك مجاري في الشارقة، سرعة ممتازة وخدمة احترافية.</p>
+        <strong>أبو محمد — المجاز</strong>
+      </div>
+      <div class="bell-review">
+        ⭐⭐⭐⭐⭐
+        <p>تم حل مشكلة الروائح بالكامل مع تنظيف البيارة بسرعة كبيرة.</p>
+        <strong>سالم — القاسمية</strong>
+      </div>
+      <div class="bell-review">
+        ⭐⭐⭐⭐⭐
+        <p>خدمة عزل ممتازة للأسطح والخزانات والأسعار مناسبة جدًا.</p>
+        <strong>خالد — مويلح</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bell-section">
+  <div class="bell-wrap">
+    <div class="bell-cta">
+      <h2>جاهزون لخدمتك 24 ساعة</h2>
+      <p>اتصل الآن أو تواصل عبر الواتساب للحصول على خدمة سريعة في جميع مناطق الشارقة.</p>
+      <div class="bell-btns" style="justify-content: center;">
+        <a href="tel:+971528913062" class="bell-btn bell-call">📞 اتصال مباشر</a>
+        <a href="https://wa.me/971528913062" class="bell-btn bell-wa">💬 واتساب مباشر</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bell-section">
+  <div class="bell-wrap">
+    <div class="bell-title">
+      <h2>موقعنا في الشارقة</h2>
+      <p>تغطية كاملة لجميع مناطق الشارقة مع خدمة سريعة على مدار الساعة.</p>
+    </div>
+    <div class="bell-map">
+      <iframe loading="lazy" src="https://www.google.com/maps?q=Sharjah&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="bell-footer">
+  <div class="bell-wrap">
+    <div class="bell-footer-grid">
+      <div>
+        <h3>BELL SYSTEM</h3>
+        <a href="#">شركة خدمات في الشارقة</a>
+        <a href="#">تسليك مجاري</a>
+        <a href="#">شفط بيارات</a>
+        <a href="#">عزل</a>
+        <a href="#">مكافحة حشرات</a>
+      </div>
+      <div>
+        <h3>الخدمات</h3>
+        <a href="#">تسليك مجاري</a>
+        <a href="#">تنظيف بالوعات</a>
+        <a href="#">عزل فوم</a>
+        <a href="#">مكافحة النمل الأبيض</a>
+      </div>
+      <div>
+        <h3>مناطق الشارقة</h3>
+        <a href="#">القاسمية</a>
+        <a href="#">المجاز</a>
+        <a href="#">مويلح</a>
+        <a href="#">الرحمانية</a>
+      </div>
+      <div>
+        <h3>تواصل معنا</h3>
+        <a href="tel:+971528913062">📞 0528913062</a>
+        <a href="https://wa.me/971528913062">💬 واتساب مباشر</a>
+        <a href="https://bellsystem35.com/">🌐 bellsystem35.com</a>
+      </div>
+    </div>
+    <div class="bell-copy">© 2026 BELL SYSTEM — جميع الحقوق محفوظة</div>
+  </div>
+</footer>
+
+<div class="bell-float">
+  <a href="tel:+971528913062" class="bell-float-call">📞</a>
+  <a href="https://wa.me/971528913062" class="bell-float-wa">💬</a>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "BELL SYSTEM",
+  "url": "https://bellsystem35.com",
+  "telephone": "+971528913062",
+  "priceRange": "$$",
+  "description": "شركة تسليك مجاري وعزل ومكافحة حشرات في الشارقة",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sharjah",
+    "addressCountry": "AE"
+  },
+  "openingHours": "Mo-Su 00:00-23:59",
+  "areaServed": "Sharjah",
+  "sameAs": [
+    "https://bellsystem35.wordpress.com/",
+    "https://x.com/system_bel46484",
+    "https://www.tiktok.com/@bellsystem35"
+  ]
+}
+</script>
+
+<script>
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (href !== '#') {
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    });
+  });
+
+  // Intersection Observer for animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.animation = 'fadeInUp 0.8s ease-out forwards';
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+
+  document.querySelectorAll('.bell-problem, .bell-service, .bell-review').forEach(el => {
+    observer.observe(el);
+  });
+
+  // Performance optimization
+  if ('loading' in HTMLImageElement.prototype) {
+    document.querySelectorAll('img[loading="lazy"]').forEach(img => {
+      img.src = img.dataset.src;
+    });
+  }
+</script>
+
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 **BELL SYSTEM 🔔** علامة لخدمات الصرف الصحي، تسليك المجاري، شفط المجاري والبيارات، تنظيف البالوعات، مكافحة الحشرات، مكافحة الحمام والطيور، مكافحة النمل الأبيض، كشف التسربات والعزل.
 
-هذا المستودع مساحة تقنية مساندة لتنظيم التوثيق والأدلة والأرشيف. **الموقع الرسمي هو مصدر الحقيقة التجاري** للأسعار والعروض والحجز والمعلومات الحالية.
+هذا المستودع مساحة تقنية مساندة للتوثيق والتنظيم والأرشفة. **الموقع الرسمي هو مصدر الحقيقة التجاري** للأسعار والعروض والحجز والمعلومات الحالية.
 
 ## 🌐 الموقع الرسمي
 
@@ -21,20 +21,10 @@
 
 ## 📍 مناطق الشارقة
 
-- [الخان](areas/al-khan.md)
-- [المجاز](areas/al-majaz.md)
-- [التعاون](areas/al-taawun.md)
-- [النهدة](areas/al-nahda.md)
-- [مويلح](areas/muwaileh.md)
-- [كشيشة](areas/kshisha.md)
-- [القرائن](areas/al-qarain.md)
-- [القاسمية](areas/al-qasimia.md)
-- [الرحمانية](areas/al-rahmaniya.md)
-- [السيوح](areas/al-suyoh.md)
-- [النوف](areas/al-nouf.md)
-- [حوشي](areas/al-hoshi.md)
-- [الصناعية](areas/industrial.md)
-- [الرولة](areas/al-rula.md)
+- [الخان](areas/al-khan.md) · [المجاز](areas/al-majaz.md) · [التعاون](areas/al-taawun.md) · [النهدة](areas/al-nahda.md)
+- [مويلح](areas/muwaileh.md) · [كشيشة](areas/kshisha.md) · [القرائن](areas/al-qarain.md) · [القاسمية](areas/al-qasimia.md)
+- [الرحمانية](areas/al-rahmaniya.md) · [السيوح](areas/al-suyoh.md) · [النوف](areas/al-nouf.md) · [حوشي](areas/al-hoshi.md)
+- [الصناعية](areas/industrial.md) · [الرولة](areas/al-rula.md)
 
 ## 🧭 مركز SEO
 
@@ -42,8 +32,8 @@
 - [خريطة الكلمات المفتاحية](seo/keyword-map.md)
 - [خريطة المحتوى](seo/content-map.md)
 - [بنية الموقع](seo/site-architecture.md)
+- [خريطة الربط الداخلي](seo/link-map.md)
 - [الربط الداخلي](seo/internal-linking.md)
-- [خريطة الربط](seo/link-map.md)
 - [SEO المحلي](seo/local-seo.md)
 - [Schema](seo/schema.md)
 - [الفهرسة](seo/indexing.md)
@@ -52,6 +42,7 @@
 - [Google Ads](seo/google-ads.md)
 - [UTM والتحويلات](seo/utm-and-conversions.md)
 - [التدقيق التقني](seo/technical-audit.md)
+- [Technical QA](seo/technical-qa.md)
 - [Redirects](seo/redirects.md)
 - [قائمة النشر](seo/publishing-checklist.md)
 
@@ -67,11 +58,9 @@
 ```text
 .
 ├── README.md
+├── SECURITY.md
+├── .gitignore
 ├── documentation/
-│   ├── seo.md
-│   ├── wordpress.md
-│   ├── tracking.md
-│   └── quality.md
 ├── services/
 ├── areas/
 ├── seo/
@@ -95,7 +84,7 @@
 
 ## 🔐 الأمان
 
-لا تُحفظ كلمات المرور أو API Keys أو Tokens أو بيانات العملاء أو مفاتيح خاصة داخل المستودع. استخدم Secrets في بيئات CI/CD عند الحاجة.
+لا تُحفظ كلمات المرور أو API Keys أو Tokens أو بيانات العملاء أو مفاتيح خاصة داخل المستودع. راجع [SECURITY.md](SECURITY.md) و`.gitignore` قبل أي نشر جديد.
 
 ## 📊 التتبع
 

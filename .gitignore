@@ -1,0 +1,54 @@
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local credentials / generated secrets
+credentials.json
+secrets.json
+service-account*.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Build / dependency output
+node_modules/
+dist/
+build/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local exports / backups
+*.bak
+*.backup
+*.zip
+*.tar
+*.tar.gz
+
+# Do not commit customer data or private exports
+customer-data/
+private-data/
+exports/private/

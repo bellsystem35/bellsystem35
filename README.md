@@ -1,15 +1,28 @@
-# 🔔 BELL SYSTEM | خدمات الصرف الصحي ومكافحة الآفات في الشارقة
+# 🏢 Al Nahrayn Compony | الشركة الأم
+## 🔔 BELL SYSTEM | فرع تابع لـ Al Nahrayn Compony
 
-**BELL SYSTEM 🔔** علامة لخدمات الصرف الصحي، تسليك المجاري، شفط المجاري والبيارات، تنظيف البالوعات، مكافحة الحشرات، مكافحة الحمام والطيور، مكافحة النمل الأبيض، كشف التسربات والعزل.
+**Al Nahrayn Compony (النهرين)** هي الهوية الأم، وتعمل **BELL SYSTEM** كفرع تابع لها ومتخصص في خدمات الصرف الصحي والخدمات الميدانية المرتبطة بها في الشارقة، الإمارات العربية المتحدة.
 
-هذا المستودع مساحة تقنية مساندة للتوثيق والتنظيم والأرشفة. **الموقع الرسمي هو مصدر الحقيقة التجاري** للأسعار والعروض والحجز والمعلومات الحالية.
+يهدف هذا المستودع إلى دعم الهوية الرقمية والتوثيق التقني والتنظيم والأرشفة الخاصة بفرع **BELL SYSTEM**، مع الحفاظ على علاقة واضحة ومتسقة مع الشركة الأم **Al Nahrayn Compony**.
 
-## 🌐 الموقع الرسمي
+> **الموقع الرسمي هو المصدر التجاري الأساسي** للمعلومات الحالية والخدمات والحجز ووسائل التواصل. GitHub مساحة مساندة للتوثيق التقني وليس بديلًا عن الموقع الرسمي.
 
-- https://bellsystem35.com/
+## 🌐 الهوية الرقمية الرسمية
+
+- الموقع الرسمي لـ BELL SYSTEM: https://bellsystem35.com/
+- GitHub: https://github.com/bellsystem35
 - GitHub Pages: https://bellsystem35.github.io/-24-BELL-SYSTEM/
 
-## 🛠️ الخدمات
+## 🏢 هيكل العلامة التجارية
+
+**الشركة الأم:** Al Nahrayn Compony  
+**الفرع:** BELL SYSTEM  
+**الدور:** خدمات الصرف الصحي والخدمات الميدانية المرتبطة بها  
+**النطاق الجغرافي الأساسي:** الشارقة، الإمارات العربية المتحدة
+
+الهدف من هذا التعريف هو توحيد العلاقة بين الشركة الأم والفرع عبر الموقع الرسمي، GitHub، ملفات الأعمال والمنصات الاجتماعية، دون إنشاء هويات متعارضة أو استخدام أسماء مضللة.
+
+## 🛠️ خدمات BELL SYSTEM
 
 - [الصرف الصحي](services/sewage.md)
 - [تسليك وتنظيف المجاري](services/drain-cleaning.md)
@@ -19,14 +32,14 @@
 - [مكافحة الحمام والطيور](services/pigeon-control.md)
 - [العزل وكشف التسربات](services/insulation.md)
 
-## 📍 مناطق الشارقة
+## 📍 مناطق الخدمة الموثقة في الشارقة
 
 - [الخان](areas/al-khan.md) · [المجاز](areas/al-majaz.md) · [التعاون](areas/al-taawun.md) · [النهدة](areas/al-nahda.md)
 - [مويلح](areas/muwaileh.md) · [كشيشة](areas/kshisha.md) · [القرائن](areas/al-qarain.md) · [القاسمية](areas/al-qasimia.md)
 - [الرحمانية](areas/al-rahmaniya.md) · [السيوح](areas/al-suyoh.md) · [النوف](areas/al-nouf.md) · [حوشي](areas/al-hoshi.md)
 - [الصناعية](areas/industrial.md) · [الرولة](areas/al-rula.md)
 
-## 🧭 مركز SEO
+## 🧭 مركز SEO والتوثيق
 
 - [فهرس SEO](seo/README.md)
 - [خريطة الكلمات المفتاحية](seo/keyword-map.md)
@@ -46,56 +59,53 @@
 - [Redirects](seo/redirects.md)
 - [قائمة النشر](seo/publishing-checklist.md)
 
-## 📚 توثيق WordPress والجودة
+## 📚 WordPress والجودة
 
 - [SEO الأساسي](documentation/seo.md)
 - [WordPress وGutenberg](documentation/wordpress.md)
 - [التتبع](documentation/tracking.md)
 - [الجودة](documentation/quality.md)
 
-## 🧱 بنية المستودع
+## 📞 التواصل الرسمي للفرع
 
-```text
-.
-├── README.md
-├── SECURITY.md
-├── .gitignore
-├── documentation/
-├── services/
-├── areas/
-├── seo/
-└── archive/
-```
-
-## 📞 التواصل
-
-- الهاتف: 0528913062
+- الهاتف: +971 52 891 3062
 - WhatsApp: https://wa.me/971528913062
 - Google Maps: https://maps.app.goo.gl/gVnEnegbrcvJNBu39
 - 2GIS: https://2gis.ae/ar/sharjah/firm/70000001097609823
 
-## 📱 الحسابات
+## 📱 المنصات الرسمية المرتبطة بـ BELL SYSTEM
 
 - TikTok: https://www.tiktok.com/@bellsystem35
 - Instagram: https://www.instagram.com/bellsystem.company
+- YouTube: https://www.youtube.com/@%D8%B4%D8%B1%D9%83%D8%A9%D8%AA%D8%B3%D9%84%D9%8A%D9%83%D9%85%D8%AC%D8%A7%D8%B1%D9%8A%D9%81%D9%8A%D8%A7%D9%84%D8%B4%D8%A7%D8%B1%D9%82%D8%A9
+- Pinterest: https://www.pinterest.com/bellsystem35/
 - LinkedIn: https://www.linkedin.com/company/bellsystem35/
 - X: https://x.com/system_bel46484
 - GitHub: https://github.com/bellsystem35
 
-## 🔐 الأمان
+## 🔗 مبدأ توحيد الكيان
 
-لا تُحفظ كلمات المرور أو API Keys أو Tokens أو بيانات العملاء أو مفاتيح خاصة داخل المستودع. راجع [SECURITY.md](SECURITY.md) و`.gitignore` قبل أي نشر جديد.
+عند استخدام هذه الروابط في الموقع أو البيانات المنظمة، يجب أن تمثل الحسابات الرسمية الحقيقية فقط. لا تُضاف حسابات مكررة أو غير مؤكدة لمجرد زيادة عدد الروابط. ويجب الحفاظ على تعريف واضح بأن **Al Nahrayn Compony هي الشركة الأم وأن BELL SYSTEM فرع تابع لها**.
+
+## 🔐 الأمان والخصوصية
+
+لا تُحفظ كلمات المرور أو API Keys أو Tokens أو بيانات العملاء أو المفاتيح الخاصة داخل المستودعات العامة. راجع [SECURITY.md](SECURITY.md) و`.gitignore` قبل أي نشر جديد.
 
 ## 📊 التتبع
 
-الأحداث الأساسية: `phone_click` و`whatsapp_click` و`lead_form_submit`. النقر لا يساوي بالضرورة Lead مكتملًا، ويجب اختبار التتبع في الإنتاج باستخدام المعرفات الحقيقية فقط.
+الأحداث الأساسية: `phone_click` و`whatsapp_click` و`lead_form_submit`. النقر لا يعني بالضرورة Lead مكتملًا، ويجب اختبار التتبع في بيئة الإنتاج باستخدام المعرفات الحقيقية فقط.
 
-## 🧩 Schema
+## 🧩 Structured Data / Schema
 
-يُستخدم Structured Data المناسب لنوع الصفحة، مع منع التكرار بين الكود اليدوي وإضافات SEO مثل Rank Math أو Yoast.
+يُستخدم Structured Data المناسب لنوع الصفحة مع تجنب التكرار أو التعارض بين الكود اليدوي وإضافات SEO. يجب أن تعكس بيانات الكيان العلاقة الحقيقية بين **Al Nahrayn Compony** و**BELL SYSTEM**، وأن تقتصر `sameAs` على الحسابات الرسمية المؤكدة.
 
 ## 📌 قاعدة المشروع
 
-الموقع الرسمي هو المصدر التجاري الأساسي. GitHub يدعم التوثيق والتنظيم والأرشفة ولا يستبدل صفحات WordPress المنشورة.
+1. **Al Nahrayn Compony** هي الشركة الأم.
+2. **BELL SYSTEM** فرع تابع لها.
+3. `bellsystem35.com` هو المصدر التجاري الرسمي لفرع BELL SYSTEM.
+4. GitHub يدعم التوثيق والتنظيم والأرشفة ولا يستبدل صفحات WordPress المنشورة.
+5. لا يتم تغيير اسم أي منصة أو ملف تجاري بطريقة مصطنعة لأغراض SEO.
+6. الاتساق والدقة أهم من تكرار الكلمات المفتاحية.
 
-© BELL SYSTEM — جميع الحقوق محفوظة.
+© Al Nahrayn Compony — BELL SYSTEM branch. جميع الحقوق محفوظة.
